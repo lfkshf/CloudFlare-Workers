@@ -6,7 +6,7 @@ addEventListener("fetch", event => {
   event.respondWith(
     fetch(request, {
       headers: {
-        'Referer': 'https://www.cloudflare.com/', //referer头,不必修改
+        'Referer': 'https://www.google.com/', //referer头,不必修改
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36' //
       }
     })
